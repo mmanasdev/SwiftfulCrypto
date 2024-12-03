@@ -28,6 +28,7 @@
 		3AE447312CE9511A00C33119 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE447302CE9511A00C33119 /* SwiftfulCryptoApp.swift */; };
 		3AE447332CE9511A00C33119 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE447322CE9511A00C33119 /* ContentView.swift */; };
 		3AE447382CE9511D00C33119 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE447372CE9511D00C33119 /* Preview Assets.xcassets */; };
+		3AFD98F22CFF9C9400E77A01 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD98F12CFF9C9400E77A01 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		3AE447302CE9511A00C33119 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		3AE447322CE9511A00C33119 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AE447372CE9511D00C33119 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AFD98F12CFF9C9400E77A01 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		3AE4472F2CE9511A00C33119 /* SwiftfulCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				3AFD98F02CFF9C5800E77A01 /* Utilities */,
 				3AE447302CE9511A00C33119 /* SwiftfulCryptoApp.swift */,
 				3A6E29B92CFE60BC00437424 /* Services */,
 				3A65AF8E2CF91BAF009FE50F /* Models */,
@@ -188,6 +191,14 @@
 				3AE447372CE9511D00C33119 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AFD98F02CFF9C5800E77A01 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3AFD98F12CFF9C9400E77A01 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				3A31940B2CEA084600575CDC /* String.swift in Sources */,
 				3A65AF8B2CF7B674009FE50F /* CircleButtonView.swift in Sources */,
 				3A65AF982CF91BAF009FE50F /* StatisticModel.swift in Sources */,
+				3AFD98F22CFF9C9400E77A01 /* NetworkingManager.swift in Sources */,
 				3A3194092CEA084600575CDC /* Date.swift in Sources */,
 				3A31940E2CEA084600575CDC /* Color.swift in Sources */,
 				3A65AF992CF91BAF009FE50F /* CoinDetailModel.swift in Sources */,
