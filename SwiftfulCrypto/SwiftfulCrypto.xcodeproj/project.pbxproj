@@ -33,6 +33,7 @@
 		3AFD98F72D00F1C400E77A01 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD98F62D00F1C400E77A01 /* CoinImageService.swift */; };
 		3AFD98F92D00F31800E77A01 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD98F82D00F31800E77A01 /* CoinImageViewModel.swift */; };
 		3AFD98FB2D0250D800E77A01 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD98FA2D0250D700E77A01 /* LocalFileManager.swift */; };
+		3AFD98FD2D03426E00E77A01 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD98FC2D03426E00E77A01 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		3AFD98F62D00F1C400E77A01 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		3AFD98F82D00F31800E77A01 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		3AFD98FA2D0250D700E77A01 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		3AFD98FC2D03426E00E77A01 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				3AFD98F32D00F00E00E77A01 /* CoinImage */,
 				3A65AF892CF7B652009FE50F /* CircleButton */,
+				3AFD98FC2D03426E00E77A01 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				3A65AF872CF7B3C0009FE50F /* HomeView.swift in Sources */,
 				3A65AF8D2CF7BA9E009FE50F /* CircleButtonAnimationView.swift in Sources */,
 				3A6E29BB2CFE60DC00437424 /* CoinDataService.swift in Sources */,
+				3AFD98FD2D03426E00E77A01 /* SearchBarView.swift in Sources */,
 				3AFD98F52D00F02400E77A01 /* CoinImageView.swift in Sources */,
 				3AE447332CE9511A00C33119 /* ContentView.swift in Sources */,
 				3A31940D2CEA084600575CDC /* UIApplication.swift in Sources */,
