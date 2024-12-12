@@ -35,6 +35,11 @@ struct PorfolioView: View {
                     trailingNavBarButton
                 }
             }
+            .onChange(of: vm.searchText) { newValue in
+                if newValue == "" {
+                    removeSelectedCoin()
+                }
+            }
         }
     }
 }
