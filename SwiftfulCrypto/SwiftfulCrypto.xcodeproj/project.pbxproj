@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A03E95C2D0E3E4B00A3CA8B /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03E95B2D0E3E4B00A3CA8B /* HapticManager.swift */; };
 		3A1ADB262D076A8A006BB0B2 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ADB252D076A8A006BB0B2 /* MarketDataService.swift */; };
 		3A1ADB282D08C234006BB0B2 /* PorfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ADB272D08C234006BB0B2 /* PorfolioView.swift */; };
 		3A1ADB2A2D08C4DF006BB0B2 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ADB292D08C4DF006BB0B2 /* XMarkButton.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A03E95B2D0E3E4B00A3CA8B /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		3A1ADB252D076A8A006BB0B2 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		3A1ADB272D08C234006BB0B2 /* PorfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorfolioView.swift; sourceTree = "<group>"; };
 		3A1ADB292D08C4DF006BB0B2 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 			children = (
 				3AFD98F12CFF9C9400E77A01 /* NetworkingManager.swift */,
 				3AFD98FA2D0250D700E77A01 /* LocalFileManager.swift */,
+				3A03E95B2D0E3E4B00A3CA8B /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				3AFD98F92D00F31800E77A01 /* CoinImageViewModel.swift in Sources */,
 				3A65AF8B2CF7B674009FE50F /* CircleButtonView.swift in Sources */,
 				3AC6691F2D08C8C20025FA8B /* CoinLogoView.swift in Sources */,
+				3A03E95C2D0E3E4B00A3CA8B /* HapticManager.swift in Sources */,
 				3A1ADB282D08C234006BB0B2 /* PorfolioView.swift in Sources */,
 				3AC263442D05B6C2005AC9A5 /* StatisticView.swift in Sources */,
 				3A65AF982CF91BAF009FE50F /* StatisticModel.swift in Sources */,
