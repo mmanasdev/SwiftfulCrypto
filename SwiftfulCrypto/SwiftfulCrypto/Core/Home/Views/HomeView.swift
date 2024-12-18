@@ -43,6 +43,7 @@ struct HomeView: View {
                     .transition(.move(edge: .trailing))
                 }
                 
+                
                 Spacer(minLength: 0)
             }
         }
