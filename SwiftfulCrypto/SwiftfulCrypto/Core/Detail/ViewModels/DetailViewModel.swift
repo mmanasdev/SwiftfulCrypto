@@ -29,6 +29,12 @@ class DetailViewModel: ObservableObject {
             .$coinDetails
             .combineLatest($coin)
             .map({ coinDetailModel, coinModel -> (overview: [StatisticModel], additional: [StatisticModel]) in
+<<<<<<< HEAD
+=======
+                return ([], [])
+            })
+            .sink { returnedArrays in
+>>>>>>> origin/main
                 
                 //overview
                 let price = coinModel.currentPrice.asCurrencyWith6Decimals()
