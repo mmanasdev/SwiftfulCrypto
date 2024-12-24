@@ -29,13 +29,7 @@ class DetailViewModel: ObservableObject {
             .$coinDetails
             .combineLatest($coin)
             .map({ coinDetailModel, coinModel -> (overview: [StatisticModel], additional: [StatisticModel]) in
-<<<<<<< HEAD
-=======
-                return ([], [])
-            })
-            .sink { returnedArrays in
->>>>>>> origin/main
-                
+
                 //overview
                 let price = coinModel.currentPrice.asCurrencyWith6Decimals()
                 let pricePercentageChange = coinModel.priceChangePercentage24H
@@ -83,7 +77,7 @@ class DetailViewModel: ObservableObject {
                 
                 return (overviewArray, additionalArray)
             })
-            .sink { returnedArrays in
+            .sink { [weak self] returnedArrays in
                 self?.overviewStatistics = returnedArrays.overview
                 self?.additionalStatistics = returnedArrays.additional
             }
