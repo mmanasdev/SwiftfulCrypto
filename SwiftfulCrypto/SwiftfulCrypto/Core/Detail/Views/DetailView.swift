@@ -33,7 +33,7 @@ struct DetailView: View {
     init(coin: CoinModel) {
         _vm = StateObject(wrappedValue: DetailViewModel(coin: coin))
     }
-    happy new year Miguel !
+    
     var body: some View {
         ScrollView {
             VStack {
