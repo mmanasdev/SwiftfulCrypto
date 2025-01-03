@@ -26,6 +26,10 @@ struct PorfolioView: View {
                     }
                 }
             }
+            .background(
+                Color.theme.background
+                    .ignoresSafeArea()
+            )
             .navigationTitle("Edit Portolio")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
